@@ -4,7 +4,7 @@ document.addEventListener('input', function(event) {
   });
   
   function correctGrammar(text) {
-    const apiKey = 'sk-proj-ZwYcVTVh1TayA7dZTzsUT3BlbkFJi925T0WzaXQcHJHQov0Q';
+    const apiKey = 'API_KEY__HERE';
     const openaiEndpoint = 'https://api.openai.com/v1/engines/davinci-codex/completions';
     const tooltipId = 'grammarTooltip';
   
